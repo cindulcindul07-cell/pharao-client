@@ -11,6 +11,7 @@ import org.lwjgl.glfw.GLFW;
 
 public final class PharaoClient implements ClientModInitializer {
 private static final boolean[] actionWasDown = new boolean[4];
+    private static boolean rightShiftWasDown = false;
 
     @Override
     public void onInitializeClient() {
