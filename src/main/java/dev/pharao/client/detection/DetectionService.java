@@ -3,7 +3,7 @@ package dev.pharao.client.detection;
 import dev.pharao.client.config.ClientConfig;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
-import import net.minecraft.block.Blocks;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.Items;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.entity.Entity;
