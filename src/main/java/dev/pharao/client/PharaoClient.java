@@ -10,7 +10,7 @@ import net.minecraft.client.MinecraftClient;
 import org.lwjgl.glfw.GLFW;
 
 public final class PharaoClient implements ClientModInitializer {
-    private static boolean rightShiftWasDown;
+private static final boolean[] actionWasDown = new boolean[4];
 
     @Override
     public void onInitializeClient() {
