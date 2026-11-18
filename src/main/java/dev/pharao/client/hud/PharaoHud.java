@@ -14,7 +14,7 @@ public final class PharaoHud {
         HudElementRegistry.addLast(Identifier.of("pharao", "findings"), PharaoHud::render);
     }
 
-    private static void render(DrawContext context, net.minecraft.client.DeltaTracker tickCounter) {
+private static void render(DrawContext context, net.minecraft.client.render.RenderTickCounter tickCounter) {
         MinecraftClient client = MinecraftClient.getInstance();
         if (client.player == null || client.world == null || client.options.hudHidden) return;
         if (!ClientConfig.actionEnabled[0] && !ClientConfig.actionEnabled[2] &&
